@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     color: #40514E;
     margin: 0;
     text-align: center;
-    display: block;
+    /* display: block; */
     scroll-behavior: smooth;
     transition: ease 0.5s;
 }
@@ -18,35 +21,41 @@ p{
     margin-inline-end: 0px;
 }
 a{
-    color: #1d72b8;
+    color: #1db882;
     text-decoration: none;
     background-color: transparent;
 }
 span{
     text-decoration: underline;
 }
+hr{
+    border: dotted #000000 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
 .H1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     text-align: center ; 
-    color: #1d72b8;
+    color: #2e1142;
     font-size: 5.625rem;
-    margin-top: 0px;
 }
 .top-contianer{
     margin-top: 0px;
-    padding-top: 150px;
     /* position: relative; */
     box-sizing: border-box;
     scroll-behavior: smooth;
     background: url(abstract-uv-ultraviolet-light-composition.jpg);
+    /* background: url(https://images.unsplash.com/photo-1538947151057-dfe933d688d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80);  */
+    /* background: url(https://www.freepik.com/free-vector/gradient-network-connection-background_12643219.htm#page=2&query=tech&position=13&from_view=search&track=sph); */
     background-position: center;
     background-attachment: fixed;
 }
 .H2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    color: #1d72b8;
+    color: #786F52;
     font-size: 2.5rem;
     margin: 50px auto 0 auto;
     font-weight: normal;
@@ -54,12 +63,100 @@ span{
 }
 .title{
     font-family: 'Montserrat', sans-serif;
-    color: #1d72b8;
+    color: #786F52;
     font-size: 2.5rem;
-    margin: 50px auto 0 auto;
+    /* margin: 50px auto 0 auto; */
     font-weight: normal;
-    padding-bottom: 350px;
 }
 .img1{
     width: 100%;
+}
+.hello{
+        color: #786F52;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 10px;
+}
+.intro{
+        font-family: 'Montserrat', sans-serif;
+        width: 20%;
+        margin: auto;
+        line-height: 2;
+        color: black;
+}
+.img2{
+    border-radius: 100px;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.des{
+    margin-left: 30px;
+    margin-bottom: 1px;
+    font-family: 'Playfair Display', serif;
+    color: #786F52;
+    font-size: 1.17em;
+    text-align: center;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.intro2{
+    font-family: 'Montserrat', sans-serif;
+    width: 31%;
+    margin: auto;
+    line-height: 2;
+    text-align: left;
+    color: #000000;
+}
+.skill{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #527877;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.btn{
+    background: #786F52;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.last{
+    background-color: #786F52;
+    padding: 50px 0 20px;
+}
+.bottom-container{
+    color: #ff0000;    
+}
+.footer-link{
+    color: #000000;
+    padding: 50px;
+}
+.copyright{
+    color: #000000;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
